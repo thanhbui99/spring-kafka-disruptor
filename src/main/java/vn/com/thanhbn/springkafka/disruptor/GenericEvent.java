@@ -1,7 +1,6 @@
 package vn.com.thanhbn.springkafka.disruptor;
 
 public class GenericEvent<T> {
-
     private T value;
 
     public T get() {

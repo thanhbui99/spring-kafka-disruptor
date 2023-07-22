@@ -12,7 +12,7 @@ import vn.com.thanhbn.springkafka.model.Dummy;
 import static vn.com.thanhbn.springkafka.config.KafkaConsumerConfig.CONCURRENCY;
 
 @Configuration
-public class ConsumerDataDummy {
+public class ConsumerDummyData {
 
     @Autowired
     DisruptorBean disruptorBean;

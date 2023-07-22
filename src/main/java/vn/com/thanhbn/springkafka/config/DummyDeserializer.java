@@ -14,8 +14,6 @@ public class DummyDeserializer implements Deserializer<Dummy> {
         try {
             return objectMapper.readValue(data, Dummy.class);
         } catch (IOException e) {
-            // Handle deserialization exception as needed
-            e.printStackTrace();
             return null;
         }
     }

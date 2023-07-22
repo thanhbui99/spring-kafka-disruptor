@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import vn.com.thanhbn.springkafka.model.Dummy;
 import vn.com.thanhbn.springkafka.utility.JSON;
 
-import static vn.com.thanhbn.springkafka.service.kafka.listener.ConsumerDataDummy.TOPIC;
+import static vn.com.thanhbn.springkafka.service.kafka.listener.ConsumerDummyData.TOPIC;
 
 @RestController
 @RequestMapping("/api")
